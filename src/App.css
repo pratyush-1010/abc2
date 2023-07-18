@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.light-theme{
+  --div-background-color:whitesmoke !important;
+  --clr: black !important;
+}
+.dark-theme{
+  --div-background-color:black !important;
+  --clr: lightgray !important;;
+  
+}
+.types{
+  background-color: var(--div-background-color) !important;
+}
+.types li{
+  color: var(--clr) !important;
+}
+.types li:hover{
+  color:red !important;
+}
+.navbar{
+  transition: all .7s;
+  color: var(--clr) !important;
+  background-color: var(--div-background-color) !important;
+  border-bottom:1px solid var(--clr) !important;
+
+}
+.brand{
+  color: var(--clr) !important;
+}
+.pname{
+  color: var(--clr) !important;
+  transition: all .9s;
+}
+body{
+  transition: all .9s;
+  color: var(--clr) !important;
+  background-color: var(--div-background-color) !important;
+}
+.offcan{
+  transition: all .9s;
+  color: var(--clr) !important;
+  background-color: var(--div-background-color) !important;
+  border-color: var(--clr) !important;
+
+}
+.offbut{
+  color:rgb(255, 93, 93) !important;
+}
+.offbut:hover{
+  color:red !important;
+}
+.offbut:focus{
+  color:red !important;
+}
+.offhead{
+  color: var(--clr);
+}
+.navbarlinks{
+  display: none;
+  /* width: 0%; */
+  transition: all .3s;
+  margin-top:0;
+  /* height: 2px; */
+  border:2px solid red;
+  background-color: red;
+  
+  }
+  .navbarlinks:hover{
+      display: block;
+      /* width: 100% !important; */
+  }
+  .navbarlinks:focus{
+      /* width: 100% !important; */
+      display: block;
+  }
+  
