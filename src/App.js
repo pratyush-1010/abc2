@@ -15,7 +15,7 @@ function App() {
       <Router>
      <Appbar/>
       <Routes>
-        <Route path="/abc2" element={<Home/>}></Route>
+        <Route path="*" element={<Home/>}></Route>
         <Route path="categories/:cat/story/:pid" element={<Single/>}></Route>
 
         <Route path="/categories/:cat" element={<Cat/>}></Route>
