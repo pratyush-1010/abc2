@@ -11,14 +11,14 @@ const Appbar=()=> {
     <Navbar expand="lg" variant='' className='navbar'>
       <Container>
         <Navbar.Brand className='brand'>
-          <Link to={'/'} className='nav-link'>
+          <Link to={'/abc2'} className='nav-link'>
           The Story Store
           </Link>
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto mt-0">
-            <NavLink to="/" className="nav-link offbut pname ">Home
+            <NavLink to="/abc2" className="nav-link offbut pname ">Home
             
             <hr className='navbarlinks'></hr></NavLink>
             <NavLink  className="nav-link pname "><Offcan/>
